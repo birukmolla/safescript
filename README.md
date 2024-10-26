@@ -20,51 +20,55 @@ Before using SafeScript, ensure you have Python 3.x installed on your system. Th
 
 You can install the required packages by running:
 
-```bash
-pip install -r requirements.txt
+  `pip install -r requirements.txt`
 
-## Steps to install
+## Steps to Install:
 
-1. Clone the repository:
-  git clone https://github.com/yourusername/safescript.git
-  cd safescript
+Clone the repository:
 
-2. Install the required dependencies:
-  pip install -r requirements.txt
+  `git clone https://github.com/yourusername/safescript.git`
+  `cd safescript`
+Install the required dependencies:
 
+  `pip install -r requirements.txt`
+  
 ## Usage
 
 To run SafeScript, execute the following command in your terminal:
-  python safescript.py
 
+  `python safescript.py`
+  
 You will be prompted to enter the URL you want to analyze:
-  Enter a URL: http://example.com
+
+  `Enter a URL: http://example.com`
 
 SafeScript will fetch the HTML content, analyze it for XSS vulnerabilities, and display the results.
 
-## Example output
+## Example Output
 
-  Detected Potential XSS Vulnerabilities:
+Detected Potential XSS Vulnerabilities:
 
   Stored XSS:
   - Type: Stored XSS in form field
     Field: username
     Form Action: /submit
-
+  
   Reflected XSS:
   - Type: Reflected XSS in URL
     URL: http://example.com/?name=<script>alert('xss')</script>
-
+  
   DOM-based XSS:
   - Type: Potential DOM-based XSS in attribute
     Element: <div>
     Attribute: onmouseover
     Value: alert('xss')
-
+    
 ## Testing
 
 To ensure SafeScript functions correctly, you can run the unit tests provided:
-  python -m unittest test_safescript.py
+
+ `python -m unittest test_safescript.py`
+
 This will execute the tests defined in test_safescript.py and report any issues.
 
 ## Contributing
@@ -77,11 +81,10 @@ SafeScript is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
 
-  -Requests for HTTP requests.
-  -BeautifulSoup for HTML parsing.
-  -lxml for efficient XML and HTML processing.
+`Requests for HTTP requests.`
+`BeautifulSoup for HTML parsing.`
+`lxml for efficient XML and HTML processing.`
 
 ## Contact
 
-For any inquiries or feedback, please contact your.email@example.com.
-
+For any inquiries or feedback, please contact birukmolla1623@gmail.com
