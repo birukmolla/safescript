@@ -26,8 +26,8 @@ You can install the required packages by running:
 
 Clone the repository:
 
- `$ git clone https://github.com/yourusername/safescript.git`
- `$ cd safescript`
+ - `$ git clone https://github.com/yourusername/safescript.git`
+ - `$ cd safescript`
   
 Install the required dependencies:
 
