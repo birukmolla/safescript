@@ -28,6 +28,7 @@ Clone the repository:
 
   `git clone https://github.com/yourusername/safescript.git`
   `cd safescript`
+  
 Install the required dependencies:
 
   `pip install -r requirements.txt`
@@ -48,20 +49,20 @@ SafeScript will fetch the HTML content, analyze it for XSS vulnerabilities, and 
 
 Detected Potential XSS Vulnerabilities:
 
-  Stored XSS:
-  - Type: Stored XSS in form field
-    Field: username
-    Form Action: /submit
+  **Stored XSS**:
+   - Type: Stored XSS in form field
+     Field: username
+     Form Action: /submit
   
-  Reflected XSS:
-  - Type: Reflected XSS in URL
-    URL: http://example.com/?name=<script>alert('xss')</script>
+  **Reflected XSS**:
+   - Type: Reflected XSS in URL
+     URL: http://example.com/?name=<script>alert('xss')</script>
   
-  DOM-based XSS:
-  - Type: Potential DOM-based XSS in attribute
-    Element: <div>
-    Attribute: onmouseover
-    Value: alert('xss')
+  **DOM-based XSS**:
+   - Type: Potential DOM-based XSS in attribute
+     Element: <div>
+     Attribute: onmouseover
+     Value: alert('xss')
     
 ## Testing
 
@@ -81,9 +82,9 @@ SafeScript is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
 
-`Requests for HTTP requests.`
-`BeautifulSoup for HTML parsing.`
-`lxml for efficient XML and HTML processing.`
+-`Requests for HTTP requests.`
+-`BeautifulSoup for HTML parsing.`
+-`lxml for efficient XML and HTML processing.`
 
 ## Contact
 
