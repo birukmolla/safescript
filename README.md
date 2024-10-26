@@ -20,7 +20,7 @@ Before using SafeScript, ensure you have Python 3.x installed on your system. Th
 
 You can install the required packages by running:
 
- $`pip install -r requirements.txt`
+ `$ pip install -r requirements.txt`
 
 ## Steps to Install:
 
