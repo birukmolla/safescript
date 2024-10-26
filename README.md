@@ -20,28 +20,28 @@ Before using SafeScript, ensure you have Python 3.x installed on your system. Th
 
 You can install the required packages by running:
 
-  `pip install -r requirements.txt`
+- $`pip install -r requirements.txt`
 
 ## Steps to Install:
 
 Clone the repository:
 
-  `git clone https://github.com/yourusername/safescript.git`
-  `cd safescript`
+- $`git clone https://github.com/yourusername/safescript.git`
+- $`cd safescript`
   
 Install the required dependencies:
 
-  `pip install -r requirements.txt`
+- $`pip install -r requirements.txt`
   
 ## Usage
 
 To run SafeScript, execute the following command in your terminal:
 
-  `python safescript.py`
+- $`python safescript.py`
   
 You will be prompted to enter the URL you want to analyze:
 
-  `Enter a URL: http://example.com`
+- `Enter a URL: http://example.com`
 
 SafeScript will fetch the HTML content, analyze it for XSS vulnerabilities, and display the results.
 
@@ -55,8 +55,8 @@ Detected Potential XSS Vulnerabilities:
      Form Action: /submit
   
   **Reflected XSS**:
-   - Type: Reflected XSS in URL
-     URL: http://example.com/?name=<script>alert('xss')</script>
+   - Type: Reflected XSS in URL:
+     - URL: http://example.com/?name=<script>alert('xss')</script>
   
   **DOM-based XSS**:
    - Type: Potential DOM-based XSS in attribute
@@ -68,7 +68,7 @@ Detected Potential XSS Vulnerabilities:
 
 To ensure SafeScript functions correctly, you can run the unit tests provided:
 
- `python -m unittest test_safescript.py`
+ - $`python -m unittest test_safescript.py`
 
 This will execute the tests defined in test_safescript.py and report any issues.
 
