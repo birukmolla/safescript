@@ -82,9 +82,9 @@ SafeScript is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
 
--`Requests for HTTP requests.`
--`BeautifulSoup for HTML parsing.`
--`lxml for efficient XML and HTML processing.`
+`Requests for HTTP requests.`
+`BeautifulSoup for HTML parsing.`
+`lxml for efficient XML and HTML processing.`
 
 ## Contact
 
